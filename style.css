@@ -1,4 +1,110 @@
 html, body {
   font-family: sans-serif;
-    background-color: #ff0077;
+    background-color: #4271D2;
   }
+
+  div.logo {
+    display: flex;
+    justify-content: left;
+    align-items: self-start;
+  }
+
+  .header {
+    text-align: center;
+    background-color: #8CADD6;
+    margin: auto;
+    width: 40%;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+  }
+
+  .nav {
+    margin: -8px;
+    position: sticky;
+    top: 0;
+        ul {
+          list-style-type: none;
+          padding: 0;
+          overflow: hidden;
+          background-color: #343D52;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block; 
+          color: #ffffff;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        li a:hover {
+          background-color: #000000;
+        }
+  }
+
+  .grid-container {
+    margin:auto;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    padding: 5px;
+  }
+  
+  .grid-container > div {
+    background-color: #8CADD6;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    image-rendering: smooth;
+  }
+
+  div.item2 {
+    font-family: sans-serif;
+    font-size: medium;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 10px; 
+    width: 100%;
+  }
+  
+  .grid-item {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .Employees {
+    background-color: #8CADD6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(0, 0, 0);
+    height: 150px; 
+  }
+  .Employees img {
+    height: 100%;  
+    border-radius: 5px; 
+  }
+  .small-box {
+    background-color: #B8B5B9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(0, 0, 0);
+    height: 75px; 
+  }
+
+
