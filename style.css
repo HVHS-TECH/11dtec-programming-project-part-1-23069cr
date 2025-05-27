@@ -1,6 +1,6 @@
 html, body {
   font-family: sans-serif;
-    background-color: #4271D2;
+    background-color: #252525;
   }
 
   div.logo {
@@ -11,7 +11,7 @@ html, body {
 
   .header {
     text-align: center;
-    background-color: #8CADD6;
+    background-color: #920000;
     margin: auto;
     width: 40%;
     border: 3px solid rgb(0, 0, 0);
@@ -26,7 +26,7 @@ html, body {
           list-style-type: none;
           padding: 0;
           overflow: hidden;
-          background-color: #343D52;
+          background-color: #3a3a3a;
         }
         
         li {
@@ -55,7 +55,7 @@ html, body {
   }
   
   .grid-container > div {
-    background-color: #8CADD6;
+    background-color: #afafaf;
     text-align: center;
     padding: 10px;
     font-size: 30px;
@@ -87,7 +87,7 @@ html, body {
   }
   
   .Employees {
-    background-color: #8CADD6;
+    background-color: #d4d4d4;
     display: flex;
     align-items: center;
     justify-content: center;
