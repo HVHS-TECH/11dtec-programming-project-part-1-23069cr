@@ -5,3 +5,8 @@ function start() {
   }
 alert("You are now renting " + userMovie);
 }
+ /* 
+ | ||
+ || |_
+ I'm at a Loss
+ */
